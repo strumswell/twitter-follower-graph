@@ -19,5 +19,5 @@ As part of a university project, I am goint to build a graph of a user and its f
 - Use [Gephi](https://gephi.org) for graph generation and cluster analysis
 - Use [wordcloud](https://github.com/amueller/word_cloud) for generating the word cloud
 
-## First graph of @AfD with 20% of data
-![graph](./img/afd_graph_v1.png)
+## Graph of @AfD
+![graph](./img/afd_graph_full_small.png)
