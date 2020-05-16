@@ -1,12 +1,12 @@
 # Follower Network Twitter
 ## Goal
-As part of a university project, I am goint to build a graph of a user and its follower network on Twitter. The goal is to identify sub-communities and what they are talking about. The following users are going to be analysed:
+As part of a university project, I am going to build a graph of a user and its follower network on Twitter. The goal is to identify sub-communities and what they are talking about. The following users are going to be analysed:
 - @AfD
 - @Die_Gruenen
 
 ## Approach
 1. Scrape the user's followers
-2. Scrape the follwowers of those users
+2. Scrape the followers of those users
 3. Clean data and select important users (>5000 followers)
 4. Analyze connections between those users
 5. Generate graphs
