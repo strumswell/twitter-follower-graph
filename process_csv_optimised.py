@@ -1,6 +1,5 @@
 #  %% Imports
 import csv
-import time
 
 def load_csv(_filename):
     with open('/Users/philippbolte/AfDTwitter/'+_filename, newline='') as f:       
