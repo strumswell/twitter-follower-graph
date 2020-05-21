@@ -19,11 +19,11 @@ def load_csv():
 
 
 print("Now for its followers...")
-followers = load_csv() # containing all username that follow the head account
+followers = load_csv() # containing all usernames that follow the head account
 i = 1
 for user in followers:
-    print("Scraping "+user[0]+" ("+str(i)+"/"+str(len(followers))+")")
     try:
+        print("Scraping "+user[0]+" ("+str(i)+"/"+str(len(followers))+")")
         save_result(user[0], get_followers(user[0]))
     except: 
         save_result(user[0], [''])
