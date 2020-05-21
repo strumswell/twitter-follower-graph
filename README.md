@@ -4,6 +4,8 @@ As part of a university project, I am going to build a graph of a user and its f
 - @AfD
 - @Die_Gruenen
 
+**Please note**: The data was collected over multiple weeks in May 2020 and is publicly accessible. The goal of this project is to objectivly understand different political groups on Twitter. My intention isn't to attack or expose people in any way.
+
 ## Approach
 1. Scrape the user's followers
 2. Scrape the followers of those users
