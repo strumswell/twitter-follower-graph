@@ -11,11 +11,11 @@ As part of a university project, I am going to build a graph of a user and its f
 | Nr | Task | @AfD | @Die_Gruenen |
 |----|------|------|--------------|
 |1.    |Scrape the user's followers      |✅      |✅              |
-|2.   |Scrape the followers of those users      |✅      |🔁              |
-|3.    |Clean data and select important users (>5000 followers)      |✅      |🔴              |
-|4.    |Analyze connections between those users      |✅      |🔴              |
-|5.    |Generate graphs      |✅      |🔴              |
-|6.    |Apply cluster analysis     |✅      |🔴              |
+|2.   |Scrape the followers of those users      |✅      |✅              |
+|3.    |Clean data and select important users    |✅      |✅            |
+|4.    |Analyze connections between those users      |✅      |✅             |
+|5.    |Generate graphs      |✅      |✅              |
+|6.    |Apply cluster analysis     |✅      |✅              |
 |7.    |Generate word clouds of those clusters      |🔴      |🔴              |
 
 
@@ -27,3 +27,6 @@ As part of a university project, I am going to build a graph of a user and its f
 
 ## Graph of @AfD
 ![graph](./img/afd_graph_full_small.png)
+
+## Graph of @Die_Gruenen
+![graph](./img/gruenen_graph_full_small.png)
