@@ -11,7 +11,7 @@ As part of a university project, I am going to build a graph of a user and its f
 | Nr | Task | @AfD | @Die_Gruenen |
 |----|------|------|--------------|
 |1.    |Scrape the user's followers      |✅      |✅              |
-|2.   |Scrape the followers of those users      |✅      |✅              |
+|2.   |Scrape the followers of the user's followers      |✅      |✅              |
 |3.    |Clean data and select important users    |✅      |✅            |
 |4.    |Analyze connections between those users      |✅      |✅             |
 |5.    |Generate graphs      |✅      |✅              |
