@@ -16,7 +16,7 @@ As part of a university project, I am going to build a graph of a user and its f
 |4.    |Analyze connections between those users      |✅      |✅             |
 |5.    |Generate graphs      |✅      |✅              |
 |6.    |Apply cluster analysis     |✅      |✅              |
-|7.    |Generate word clouds of those clusters      |🔴      |🔴              |
+|7.    |Generate word clouds of those clusters      |🔁      |🔁              |
 
 
 ## Tools
