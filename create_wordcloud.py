@@ -10,9 +10,9 @@ import numpy as np
 import spacy
 import csv
 import json
-#nlp = spacy.load('de_core_news_sm')
+nlp = spacy.load('de_core_news_sm')
 #nlp = spacy.load('pt_core_news_sm')
-nlp = spacy.load('en_core_web_sm')
+#nlp = spacy.load('en_core_web_sm')
 #nlp = spacy.load("fr_core_news_sm")
 # Polish Spacy Model: https://github.com/ipipan/spacy-pl
 #nlp = spacy.load('pl_spacy_model') # or spacy.load('pl_spacy_model_morfeusz')
@@ -35,8 +35,8 @@ def get_dict_from_texts(texts, filter_words, min_word_length):
         # Filter points
         word_list = list(map(lambda x: x.text, filter(lambda x: x.pos_ != 'PUNCT', text_lemma)))
         # Filter stop words
-        word_list_cleaned = [tok for tok in word_list if tok not in STOP_WORDS_EN]
-        word_list_cleaned = [tok for tok in word_list_cleaned if tok not in STOP_WORDS_DE]
+        word_list_cleaned = [tok for tok in word_list if tok not in STOP_WORDS_DE]
+        word_list_cleaned = [tok for tok in word_list_cleaned if tok not in STOP_WORDS_EN]
         #word_list_cleaned = [tok for tok in word_list_cleaned if tok not in STOP_WORDS_DE]
         # Filter short words
         word_list_cleaned = [tok for tok in word_list_cleaned if len(tok) >= min_word_length]
@@ -70,7 +70,7 @@ def save_dict_as_json(_text_dict, _path):
         json.dump(_text_dict, fp, indent=4, ensure_ascii=False)
 
 #  %% 
-influential_users_by_party = [{'AfD': load_csv('/AfD_cluster/influential_users.csv')}]
+influential_users_by_party = [{'Die_Gruenen': load_csv('/Die_Gruenen_cluster/influential_users.csv')}]
 
 # %%
 # -*- coding: utf-8 -*-
